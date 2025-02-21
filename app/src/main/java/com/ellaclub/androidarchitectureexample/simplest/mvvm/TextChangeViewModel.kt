@@ -1,4 +1,4 @@
-package com.ellaclub.androidarchitectureexample.mvvm
+package com.ellaclub.androidarchitectureexample.simplest.mvvm
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

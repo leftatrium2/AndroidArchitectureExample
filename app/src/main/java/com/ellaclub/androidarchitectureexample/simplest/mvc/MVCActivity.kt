@@ -1,4 +1,4 @@
-package com.ellaclub.androidarchitectureexample.mvc
+package com.ellaclub.androidarchitectureexample.simplest.mvc
 
 import android.os.Bundle
 import android.widget.TextView
@@ -10,7 +10,7 @@ import com.ellaclub.androidarchitectureexample.R
 class MVCActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.mvc_activity_layout)
+        setContentView(R.layout.simplest_mvc_activity_layout)
         val tv1 = findViewById<TextView>(R.id.tv1)
         val et1 = findViewById<AppCompatEditText>(R.id.et1)
         et1.addTextChangedListener {

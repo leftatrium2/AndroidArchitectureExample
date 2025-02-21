@@ -1,4 +1,4 @@
-package com.ellaclub.androidarchitectureexample.compose
+package com.ellaclub.androidarchitectureexample.simplest.compose
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

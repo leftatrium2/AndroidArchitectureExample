@@ -1,4 +1,4 @@
-package com.ellaclub.androidarchitectureexample.mvp
+package com.ellaclub.androidarchitectureexample.simplest.mvp
 
 class TextChangePresenter(val textChange: ITextChange) {
     fun setTextView(currValue: String) {

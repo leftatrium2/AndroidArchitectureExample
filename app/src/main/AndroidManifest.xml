@@ -22,11 +22,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".mvc.MVCActivity" />
-        <activity android:name=".mvp.MVPActivity" />
-        <activity android:name=".mvvm.MVVMActivity" />
-        <activity android:name=".mvi.MVIActivity" />
-        <activity android:name=".compose.ComposeActivity" />
+        <activity android:name="com.ellaclub.androidarchitectureexample.simplest.mvc.MVCActivity" />
+        <activity android:name="com.ellaclub.androidarchitectureexample.simplest.mvp.MVPActivity" />
+        <activity android:name="com.ellaclub.androidarchitectureexample.simplest.mvvm.MVVMActivity" />
+        <activity android:name="com.ellaclub.androidarchitectureexample.simplest.mvi.MVIActivity" />
+        <activity android:name="com.ellaclub.androidarchitectureexample.simplest.compose.ComposeActivity" />
+        <activity android:name=".network.compose.ComposeActivity" />
+        <activity android:name=".network.mvc.MVCActivity" />
+        <activity android:name=".network.mvp.MVPActivity" />
+        <activity android:name=".network.mvvm.MVVMActivity" />
+        <activity android:name=".network.mvi.MVIActivity" />
+        <activity android:name=".feeds.compose.ComposeActivity" />
+        <activity android:name=".feeds.mvc.MVCActivity" />
+        <activity android:name=".feeds.mvp.MVPActivity" />
+        <activity android:name=".feeds.mvvm.MVVMActivity" />
+        <activity android:name=".feeds.mvi.MVIActivity" />
     </application>
 
 </manifest>
