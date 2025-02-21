@@ -8,16 +8,16 @@
         android:id="@+id/tv1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nothing" />
+        android:text="" />
 
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/et1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minLines="5"
-        android:text="pls input keyword" />
+        android:text="android" />
 
     <Button
+        android:id="@+id/btn_search"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="Search" />
