@@ -1,4 +1,4 @@
-package com.ellaclub.androidarchitectureexample.network.retrofit.bean
+package com.ellaclub.androidarchitectureexample.retrofit.bean
 
 data class Base<T>(
     val errorCode: Int = 0,

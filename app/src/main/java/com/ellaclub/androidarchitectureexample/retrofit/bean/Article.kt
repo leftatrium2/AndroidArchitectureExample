@@ -1,4 +1,4 @@
-package com.ellaclub.androidarchitectureexample.network.retrofit.bean
+package com.ellaclub.androidarchitectureexample.retrofit.bean
 
 import org.json.JSONObject
 

@@ -6,8 +6,8 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatEditText
 import com.ellaclub.androidarchitectureexample.R
-import com.ellaclub.androidarchitectureexample.network.retrofit.bean.Base
-import com.ellaclub.androidarchitectureexample.network.retrofit.bean.Data
+import com.ellaclub.androidarchitectureexample.retrofit.bean.Base
+import com.ellaclub.androidarchitectureexample.retrofit.bean.Data
 
 class MVPActivity : AppCompatActivity(), ISearchView {
     lateinit var searchPresenter: SearchPresenter

@@ -1,9 +1,9 @@
 package com.ellaclub.androidarchitectureexample.network.mvp
 
 import android.util.Log
-import com.ellaclub.androidarchitectureexample.network.retrofit.RetrofitClient
-import com.ellaclub.androidarchitectureexample.network.retrofit.bean.Base
-import com.ellaclub.androidarchitectureexample.network.retrofit.bean.Data
+import com.ellaclub.androidarchitectureexample.retrofit.RetrofitClient
+import com.ellaclub.androidarchitectureexample.retrofit.bean.Base
+import com.ellaclub.androidarchitectureexample.retrofit.bean.Data
 import retrofit2.Call
 import retrofit2.Response
 

@@ -1,6 +1,6 @@
-package com.ellaclub.androidarchitectureexample.network.retrofit
+package com.ellaclub.androidarchitectureexample.retrofit
 
-import com.ellaclub.androidarchitectureexample.network.retrofit.api.SearchApi
+import com.ellaclub.androidarchitectureexample.retrofit.api.SearchApi
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

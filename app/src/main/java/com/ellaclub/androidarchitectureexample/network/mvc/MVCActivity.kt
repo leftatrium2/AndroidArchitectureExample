@@ -7,10 +7,10 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatEditText
 import com.ellaclub.androidarchitectureexample.R
-import com.ellaclub.androidarchitectureexample.network.retrofit.RetrofitClient
-import com.ellaclub.androidarchitectureexample.network.retrofit.bean.Base
-import com.ellaclub.androidarchitectureexample.network.retrofit.bean.Data
-import com.ellaclub.androidarchitectureexample.network.retrofit.const.Const
+import com.ellaclub.androidarchitectureexample.retrofit.RetrofitClient
+import com.ellaclub.androidarchitectureexample.retrofit.bean.Base
+import com.ellaclub.androidarchitectureexample.retrofit.bean.Data
+import com.ellaclub.androidarchitectureexample.retrofit.const.Const
 import retrofit2.Call
 import retrofit2.Response
 
