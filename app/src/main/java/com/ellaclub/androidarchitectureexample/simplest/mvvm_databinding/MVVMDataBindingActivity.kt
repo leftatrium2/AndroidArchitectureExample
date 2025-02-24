@@ -26,7 +26,7 @@ class MVVMDataBindingActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         databinding =
             DataBindingUtil.setContentView(this, R.layout.simplest_databinding_activity_layout)
-        viewModel = ViewModelProvider(this).get(TextChangeDataBindingViewModel::class.java)
+        viewModel = ViewModelProvider(this)[TextChangeDataBindingViewModel::class.java]
         viewModel.editValue.value = "Hello World!"
         databinding.lifecycleOwner = this
         databinding.textChanging = viewModel
