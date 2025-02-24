@@ -16,7 +16,7 @@ class SearchViewModel : ViewModel() {
         const val TAG = "SearchViewModel"
     }
 
-    val _state = MutableLiveData<SearchState>()
+    private val _state: MutableLiveData<SearchState> = MutableLiveData<SearchState>()
     val state: LiveData<SearchState> get() = _state
 
     fun searchNow(keyword: String) {
@@ -34,7 +34,6 @@ class SearchViewModel : ViewModel() {
             override fun onFailure(call: Call<Base<Data>>, t: Throwable) {
                 Log.e(TAG, t.message.toString())
             }
-
         })
     }
 }

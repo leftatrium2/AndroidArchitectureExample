@@ -27,7 +27,9 @@ fun SearchView() {
         Text(text = "")
         Spacer(modifier = Modifier.height(4.dp))
         OutlinedTextField(value = "", onValueChange = {})
-        Button(onClick = { /*TODO*/ }) {
+        Button(onClick = {
+
+        }) {
             Text(text = "Search")
         }
     }

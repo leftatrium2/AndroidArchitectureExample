@@ -87,46 +87,5 @@ class MainActivity : AppCompatActivity() {
             )
             startActivity(intent)
         }
-        // feeds example
-        val gotoFeedsMVCButton = findViewById<Button>(R.id.go_to_feeds_mvc)
-        gotoFeedsMVCButton.setOnClickListener {
-            val intent = Intent(
-                this@MainActivity,
-                com.ellaclub.androidarchitectureexample.feeds.mvc.MVCActivity::class.java
-            )
-            startActivity(intent)
-        }
-        val gotoFeedsMVPButton = findViewById<Button>(R.id.go_to_feeds_mvp)
-        gotoFeedsMVPButton.setOnClickListener {
-            val intent = Intent(
-                this@MainActivity,
-                com.ellaclub.androidarchitectureexample.feeds.mvp.MVPActivity::class.java
-            )
-            startActivity(intent)
-        }
-        val gotoFeedsMVVMButton = findViewById<Button>(R.id.go_to_feeds_mvvm)
-        gotoFeedsMVVMButton.setOnClickListener {
-            val intent = Intent(
-                this@MainActivity,
-                com.ellaclub.androidarchitectureexample.feeds.mvvm.MVVMActivity::class.java
-            )
-            startActivity(intent)
-        }
-        val gotoFeedsMVIButton = findViewById<Button>(R.id.go_to_feeds_mvi)
-        gotoFeedsMVIButton.setOnClickListener {
-            val intent = Intent(
-                this@MainActivity,
-                com.ellaclub.androidarchitectureexample.feeds.mvi.MVIActivity::class.java
-            )
-            startActivity(intent)
-        }
-        val gotoFeedsComposeButton = findViewById<Button>(R.id.go_to_feeds_compose)
-        gotoFeedsComposeButton.setOnClickListener {
-            val intent = Intent(
-                this@MainActivity,
-                com.ellaclub.androidarchitectureexample.feeds.compose.ComposeActivity::class.java
-            )
-            startActivity(intent)
-        }
     }
 }

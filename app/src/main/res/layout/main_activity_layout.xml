@@ -83,41 +83,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:text="Go to Network JetPack Compose example" />
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="5dp"
-                android:background="@color/split_line" />
-
-            <Button
-                android:id="@+id/go_to_feeds_mvc"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:text="Go to Feeds MVC example" />
-
-            <Button
-                android:id="@+id/go_to_feeds_mvp"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:text="Go to Feeds MVP example" />
-
-            <Button
-                android:id="@+id/go_to_feeds_mvvm"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:text="Go to Feeds MVVM example" />
-
-            <Button
-                android:id="@+id/go_to_feeds_mvi"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:text="Go to Feeds MVI example" />
-
-            <Button
-                android:id="@+id/go_to_feeds_compose"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:text="Go to Feeds Compose example" />
         </LinearLayout>
 
     </ScrollView>

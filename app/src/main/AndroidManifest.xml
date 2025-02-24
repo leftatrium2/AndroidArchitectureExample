@@ -33,11 +33,6 @@
         <activity android:name=".network.mvp.MVPActivity" />
         <activity android:name=".network.mvvm.MVVMActivity" />
         <activity android:name=".network.mvi.MVIActivity" />
-        <activity android:name=".feeds.compose.ComposeActivity" />
-        <activity android:name=".feeds.mvc.MVCActivity" />
-        <activity android:name=".feeds.mvp.MVPActivity" />
-        <activity android:name=".feeds.mvvm.MVVMActivity" />
-        <activity android:name=".feeds.mvi.MVIActivity" />
     </application>
 
 </manifest>
