@@ -19,7 +19,7 @@ class MVIActivity : AppCompatActivity() {
         et1.addTextChangedListener {
             viewModel.onTextChanged(it.toString())
         }
-        viewModel = ViewModelProvider(this)[TextChangeViewModel::class.java]
+        viewModel = ViewModelProvider(this).get(TextChangeViewModel::class.java)
         viewModel.state.observe(this, Observer {
             tv1.text = it.editText
         })
