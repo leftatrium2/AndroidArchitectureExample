@@ -7,6 +7,6 @@ import com.ellaclub.androidarchitectureexample.R
 class MVIActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.simplest_mvi_activity_layout)
+        setContentView(R.layout.simplest_activity_layout)
     }
 }

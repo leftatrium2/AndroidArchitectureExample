@@ -14,7 +14,7 @@ class MVVMActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.simplest_mvvm_activity_layout)
+        setContentView(R.layout.simplest_activity_layout)
         val et1 = findViewById<AppCompatEditText>(R.id.et1)
         val tv1 = findViewById<TextView>(R.id.tv1)
         textChangeVM = ViewModelProvider(this).get(TextChangeViewModel::class.java)

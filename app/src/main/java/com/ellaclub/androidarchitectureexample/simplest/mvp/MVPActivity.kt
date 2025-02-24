@@ -13,7 +13,7 @@ class MVPActivity : AppCompatActivity(), ITextChange {
     lateinit var presenter: TextChangePresenter
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.simplest_mvp_activity_layout)
+        setContentView(R.layout.simplest_activity_layout)
         presenter = TextChangePresenter(this)
         tv1 = findViewById(R.id.tv1)
         et1 = findViewById(R.id.et1)
