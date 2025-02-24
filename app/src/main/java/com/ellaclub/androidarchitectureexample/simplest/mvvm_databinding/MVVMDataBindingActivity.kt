@@ -10,6 +10,10 @@ import androidx.lifecycle.ViewModelProvider
 import com.ellaclub.androidarchitectureexample.R
 import com.ellaclub.androidarchitectureexample.databinding.SimplestDatabindingActivityLayoutBinding
 
+/**
+ * An example of using DataBinding
+ * DataBinding is rarely used in actual projects due to its lack of flexibility
+ */
 class MVVMDataBindingActivity : AppCompatActivity() {
     companion object {
         const val TAG = "MVVMDataBindingActivity"
@@ -28,6 +32,7 @@ class MVVMDataBindingActivity : AppCompatActivity() {
         databinding.textChanging = viewModel
         editText = findViewById(R.id.et1)
         editText.addTextChangedListener {
+            Log.d(TAG, "onCreate: ${it.toString()}")
             viewModel.editValue.value = it.toString()
         }
     }
