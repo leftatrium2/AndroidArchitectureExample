@@ -32,6 +32,12 @@
                 android:text="Go to Simplest MVVM example" />
 
             <Button
+                android:id="@+id/go_to_simplest_mvvm_databinding"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Go to Simplest MVVM Databinding example" />
+
+            <Button
                 android:id="@+id/go_to_simplest_mvi"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"

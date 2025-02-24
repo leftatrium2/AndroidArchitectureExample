@@ -9,6 +9,7 @@ import com.ellaclub.androidarchitectureexample.simplest.mvc.MVCActivity
 import com.ellaclub.androidarchitectureexample.simplest.mvi.MVIActivity
 import com.ellaclub.androidarchitectureexample.simplest.mvp.MVPActivity
 import com.ellaclub.androidarchitectureexample.simplest.mvvm.MVVMActivity
+import com.ellaclub.androidarchitectureexample.simplest.mvvm_databinding.MVVMDataBindingActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,6 +29,11 @@ class MainActivity : AppCompatActivity() {
         val gotoMVVMButton = findViewById<Button>(R.id.go_to_simplest_mvvm)
         gotoMVVMButton.setOnClickListener {
             val intent = Intent(this@MainActivity, MVVMActivity::class.java)
+            startActivity(intent)
+        }
+        val gotoMVVMDatabindingButton = findViewById<Button>(R.id.go_to_simplest_mvvm_databinding)
+        gotoMVVMDatabindingButton.setOnClickListener {
+            val intent = Intent(this@MainActivity, MVVMDataBindingActivity::class.java)
             startActivity(intent)
         }
         val gotoMVIButton = findViewById<Button>(R.id.go_to_simplest_mvi)

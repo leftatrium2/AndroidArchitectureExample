@@ -22,11 +22,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.ellaclub.androidarchitectureexample.simplest.mvc.MVCActivity" />
-        <activity android:name="com.ellaclub.androidarchitectureexample.simplest.mvp.MVPActivity" />
-        <activity android:name="com.ellaclub.androidarchitectureexample.simplest.mvvm.MVVMActivity" />
-        <activity android:name="com.ellaclub.androidarchitectureexample.simplest.mvi.MVIActivity" />
-        <activity android:name="com.ellaclub.androidarchitectureexample.simplest.compose.ComposeActivity" />
+        <activity android:name=".simplest.mvc.MVCActivity" />
+        <activity android:name=".simplest.mvp.MVPActivity" />
+        <activity android:name=".simplest.mvvm.MVVMActivity" />
+        <activity android:name=".simplest.mvvm_databinding.MVVMDataBindingActivity" />
+        <activity android:name=".simplest.mvi.MVIActivity" />
+        <activity android:name=".simplest.compose.ComposeActivity" />
         <activity android:name=".network.compose.ComposeActivity" />
         <activity android:name=".network.mvc.MVCActivity" />
         <activity android:name=".network.mvp.MVPActivity" />
